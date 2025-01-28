@@ -1,0 +1,69 @@
+@font-face {
+    font-family : 'SteppeBook';
+    src : url('../fonts/Steppe-Book.ttf');
+}
+@font-face {
+    font-family : 'SteppeExtraBold';
+    src : url('../fonts/Steppe-ExtraBold.ttf');
+}
+
+
+
+$font_normal : SteppeBook, sans-serif;
+$font_bold : SteppeExtraBold, sans-serif;
+
+$content-max-width : 1200px;
+$content-high-width : 1024px;
+$content-medium-width : 680px;
+$content-low-width : 495px;
+
+
+
+.content_wrapper {
+    max-width : $content-max-width;
+    @media (max-width : calc($content-max-width + 4rem)) { max-width : calc(100vw - 4rem); }
+    margin : 0 auto;
+}
+
+
+
+.logo img {
+    vertical-align : bottom;
+}
+
+.common-title {
+    font-family : $font_bold;
+    font-size : 60px;
+    line-height : 100%;
+    text-align : center;
+}
+
+button {
+    width : 178px;
+    height : 58px;
+    box-sizing : border-box;
+    padding : 18px;
+    text-align : center;
+
+    background-color : white;
+    border-radius : 60px;
+    border : 0;
+    outline : none;
+    cursor : pointer;
+
+    font-size : 18px;
+    color : #5243F4;
+
+    &:hover {
+        background-color : #eee;
+    }
+}
+
+button.violet {
+    background-color : #5243F4;
+    color : white;
+
+    &:hover {
+        background-color : #3e30d8;
+    }
+}
