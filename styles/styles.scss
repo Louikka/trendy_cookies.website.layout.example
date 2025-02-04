@@ -89,6 +89,7 @@ body {
 
                         font-family : $font_bold;
                         font-size : 90px;
+                        @media (max-width : $content-low-width) { font-size : 70px; }
                         line-height : 100%;
                     }
 
