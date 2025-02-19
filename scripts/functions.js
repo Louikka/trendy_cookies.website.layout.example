@@ -8,7 +8,6 @@ function setProductItem(data) {
 
             let img = document.createElement('img');
             img.src = `./images/${data['image']}`;
-            img.loading = 'lazy';
             img.alt = 'product_item_image';
 
         item_image.append(img);
