@@ -1,0 +1,50 @@
+button {
+    width : 11.125rem;
+    height : 3.625rem;
+    box-sizing : border-box;
+    padding : 1.125rem;
+    text-align : center;
+
+    background-color : white;
+    border : none;
+    border-radius : 999em;
+    outline : none;
+    cursor : pointer;
+
+    font-size : 1.125rem;
+    color : var(--color-def);
+
+    &:hover {
+        background-color : #eee;
+    }
+}
+button.violet {
+    background-color : var(--color-def);
+    color : white;
+
+    &:hover {
+        background-color : var(--color-def_hover);
+    }
+}
+
+
+
+img {
+    display : block;
+}
+
+.content_wrapper {
+    max-width : var(--content-max-width);
+    margin : 0 auto;
+}
+
+.logo img {
+    vertical-align : bottom;
+}
+
+.common_title {
+    font-family : var(--font-bold);
+    font-size : 3.75rem;
+    line-height : 100%;
+    text-align : center;
+}
