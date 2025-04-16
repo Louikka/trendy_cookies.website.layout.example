@@ -386,6 +386,13 @@ body {
             text-align : center;
 
 
+            .logo {
+                > img {
+                    margin : 0 auto;
+                }
+            }
+
+
             .rights {
                 margin-top : 14px;
 
@@ -407,7 +414,7 @@ body {
     .background-line2 {
         position : absolute;
         z-index : -1;
-        top : -40px;
+        top : 500px;
         left : 0;
     }
     .background-line3 {
